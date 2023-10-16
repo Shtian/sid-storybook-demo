@@ -6,13 +6,13 @@
   --bg-color: #262628;
   --text-color: #fff;
   --border-color: #262628;
+
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
   max-width: 100%;
   width: 350px;
-  padding-inline: 1.25rem;
-  padding-block: 1rem;
+  padding: 1rem 1.25rem;
   background-color: var(--bg-color);
   color: var(--text-color);
   border: 1px solid var(--border-color);
