@@ -1,0 +1,72 @@
+.snackbar > * {
+  box-sizing: border-box;
+  margin: 0;
+}
+.snackbar {
+  --bg-color: #262628;
+  --text-color: #fff;
+  --border-color: #262628;
+  font-family: sans-serif;
+  display: flex;
+  max-width: 100%;
+  width: 350px;
+  align-items: center;
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding-inline: 1.25rem;
+  padding-block: 1rem;
+}
+
+.snackbar--success {
+  --bg-color: #e3f2da;
+  --text-color: #000;
+  --border-color: #aacd87;
+}
+
+.snackbar--error {
+  --bg-color: #ffc8b9;
+  --text-color: #000;
+  --border-color: #f0786e;
+}
+
+.snackbar__icon {
+  display: flex;
+  flex-shrink: 0;
+  padding-inline-end: 0.5rem;
+}
+
+.snackbar__icon svg {
+  display: block;
+}
+
+.snackbar__content {
+  flex: 1;
+}
+
+.snackbar__close-btn {
+  flex-shrink: 0;
+  padding-inline-start: 1rem;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: 600;
+}
+.snackbar__close-btn:hover {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
