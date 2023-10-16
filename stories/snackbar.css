@@ -19,6 +19,12 @@
   padding-block: 1rem;
 }
 
+.snackbar--neutral {
+  --bg-color: #262628;
+  --text-color: #fff;
+  --border-color: #262628;
+}
+
 .snackbar--success {
   --bg-color: #e3f2da;
   --text-color: #000;

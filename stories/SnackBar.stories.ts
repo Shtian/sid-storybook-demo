@@ -12,9 +12,9 @@ const meta: Meta<typeof SnackBar> = {
 export default meta;
 type Story = StoryObj<typeof SnackBar>;
 
-export const notice: Story = {
+export const neutral: Story = {
   args: {
-    variant: "notice",
+    variant: "neutral",
     children: "Preparing document",
   },
 };

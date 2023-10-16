@@ -2,11 +2,11 @@ import { AlertTriangle, Check, Info } from "react-feather";
 import "./snackbar.css";
 interface SnackBarProps {
   onClose: (e: React.MouseEvent<HTMLButtonElement>) => void;
-  variant: "notice" | "success" | "error";
+  variant: "neutral" | "success" | "error";
   children: React.ReactNode;
 }
 const ICONS_BY_VARIANT = {
-  notice: Info,
+  neutral: Info,
   success: Check,
   error: AlertTriangle,
 };
