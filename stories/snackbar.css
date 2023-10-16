@@ -1,4 +1,4 @@
-.snackbar > * {
+.snackbar * {
   box-sizing: border-box;
   margin: 0;
 }

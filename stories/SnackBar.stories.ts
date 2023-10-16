@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { SnackBar } from "./SnackBar";
+import { Snackbar } from "./Snackbar";
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
-const meta: Meta<typeof SnackBar> = {
-  title: "Example/SnackBar",
-  component: SnackBar,
+const meta: Meta<typeof Snackbar> = {
+  title: "Sid/Snackbar",
+  component: Snackbar,
   tags: ["autodocs"],
 };
 
 export default meta;
-type Story = StoryObj<typeof SnackBar>;
+type Story = StoryObj<typeof Snackbar>;
 
 export const neutral: Story = {
   args: {
