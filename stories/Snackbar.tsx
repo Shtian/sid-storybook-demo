@@ -1,5 +1,5 @@
 import { AlertTriangle, Check, Info } from "react-feather";
-import "./snackbar.css";
+import "./Snackbar.css";
 interface SnackbarProps {
   onClose: (e: React.MouseEvent<HTMLButtonElement>) => void;
   variant: "neutral" | "success" | "error";
