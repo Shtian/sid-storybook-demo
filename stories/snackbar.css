@@ -6,7 +6,7 @@
   --bg-color: #262628;
   --text-color: #fff;
   --border-color: #262628;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   max-width: 100%;
   width: 350px;
@@ -52,6 +52,7 @@
   border: none;
   color: inherit;
   font-size: inherit;
+  font-family: inherit;
   font-weight: 600;
 }
 .snackbar__close-btn:hover {
